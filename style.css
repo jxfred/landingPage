@@ -1,0 +1,186 @@
+.logo {
+    flex:1 1 100px;
+ }
+
+ nav {
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #1F2937;
+    overflow: auto;
+    height: auto;
+    text-decoration:none;
+    font-size:18px;
+    padding-top:10px;
+ }
+
+ .randombox  {
+     display: flex;
+     font-size:12px;
+     padding-left:20%;
+     padding-right:20%;
+ }
+
+ .randombox div {
+    flex: 1 1 0%;
+    margin-left:10px;
+    margin-right:10px;
+ }
+
+ .randombox div {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+    align-content:center;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    
+}
+
+.random img {
+    border-radius:12px;
+    border: 2px solid #3882F6;
+}
+
+.random {
+    background-color:white;
+    padding-top:50px;
+    padding-bottom:50px;
+    width:100%;
+    margin: auto;
+}
+
+.calltoaction {
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color:white;
+    padding:10px;
+    height:20%;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+.cta {
+    border-radius:12px;
+    border: 2px solid #3882F6;
+    background-color:#3882F6;
+}
+
+.cta div {
+    text-align:right;
+    margin-right:20%;
+}
+
+.ctabutton{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 12px;
+    color:white;
+    margin-top:-15px;
+}
+
+.ctabutton:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.caption {
+    display: block;
+}
+
+.container.item
+{
+    flex: 1;
+    text-align:center;
+}
+
+ .container img {
+     align-content:center;
+ }
+
+
+ nav a {
+     text-decoration:none;
+     text-transform:lowercase;
+     color:white;
+     font-size:16px;
+     margin-right:15px;
+ }
+
+ nav .logo {
+    color:white;
+    font-size:18px;
+    margin-left:15px;
+ }
+
+ .header {
+     display:flex;
+     margin-top:50px;
+     margin-left:50px;
+     margin-bottom:50px;
+     color:#f9faf8;
+
+ }
+ .header div{
+     flex:1; 
+ }
+
+ .header button {
+     background-color:#3882F6;
+     color: white;
+     border: none;
+     text-align: center;
+     padding: 12px 28px;
+     font-weight:bold;
+     border-radius: 12px;
+}
+ 
+ button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+ .item1 p {
+     font-size:18px;
+ }
+
+ .item2 img{
+     width:300px;
+     height:300px;
+ }
+
+ .name {
+    text-align: right;
+    font-weight: bold;
+    color: #1F2937;
+    margin-top:-10px;
+    margin-right:80px;
+  }
+
+  .testimonial {
+      background-color: #E5E7EB;
+      padding-top:60px;
+      padding-right:100px;
+      padding-left:100px;
+      padding-bottom:60px;
+  }
+
+  .box2
+  {
+    justify-content: center;
+    font-weight:lighter;
+    font-style:italic;
+    margin-left:50px;
+  }
+
+  .footer {
+      text-align:center;
+      color:white;
+      margin-top:20px;
+      margin-bottom:20px;
+  }
+
+  
