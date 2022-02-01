@@ -56,24 +56,19 @@ img {
 }
 
 .calltoaction {
-    margin-top:10px;
-    margin-bottom:10px;
     background-color:white;
     padding:10px;
     height:20%;
     padding-left:15%;
     padding-right:15%;
+    padding-top:30px;
 }
 
 .cta {
     border-radius:12px;
     border: 2px solid #3882F6;
     background-color:#3882F6;
-}
-
-.cta div {
-    text-align:right;
-    margin-right:20%;
+    color:white;
 }
 
 .ctabutton{
@@ -81,7 +76,15 @@ img {
     border: 2px solid white;
     border-radius: 12px;
     color:white;
-    margin-top:-15px;
+}
+
+.cta p {
+    display:inline;
+}
+
+.but {
+    text-align:right;
+    overflow:hidden;
 }
 
 .ctabutton:hover {
