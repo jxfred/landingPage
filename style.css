@@ -59,16 +59,21 @@ img {
     background-color:white;
     padding:10px;
     height:20%;
-    padding-left:15%;
-    padding-right:15%;
-    padding-top:30px;
+    
 }
 
-.cta {
+.wraparound {
     border-radius:12px;
     border: 2px solid #3882F6;
     background-color:#3882F6;
     color:white;
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.wraparound div {
+    flex: 1;
 }
 
 .ctabutton{
@@ -78,13 +83,11 @@ img {
     color:white;
 }
 
-.cta p {
-    display:inline;
-}
-
 .but {
-    text-align:right;
-    overflow:hidden;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width:100px;
 }
 
 .ctabutton:hover {
@@ -100,11 +103,6 @@ img {
     flex: 1;
     text-align:center;
 }
-
- .container img {
-     align-content:center;
- }
-
 
  nav a {
      text-decoration:none;
@@ -123,10 +121,8 @@ img {
  .header {
      display:flex;
      margin-top:50px;
-     margin-left:50px;
      margin-bottom:50px;
      color:#f9faf8;
-
  }
  .header div{
      flex:1; 
@@ -142,8 +138,16 @@ img {
      border-radius: 12px;
 }
  
+
  button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ }
+
+ .item1{
+     margin-left:10%;
+ }
+ .item2{
+     margin-right:10%;
  }
 
  .item1 p {
@@ -168,7 +172,6 @@ img {
       padding-top:60px;
       padding-right:100px;
       padding-left:100px;
-      padding-bottom:60px;
   }
 
   .box2
