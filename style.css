@@ -18,21 +18,19 @@
  .randombox  {
      display: flex;
      font-size:12px;
-     padding-left:20%;
-     padding-right:20%;
+     margin-right:20%;
+     margin-left:20%;
+
  }
 
  .randombox div {
-    flex: 1 1 0%;
+    flex-shrink: inherit;
     margin-left:10px;
     margin-right:10px;
- }
-
- .randombox div {
     vertical-align: top;
-    display: inline-block;
+    
     text-align: center;
-    width: 130px;
+    width: 25%;
     align-content:center;
 }
 
@@ -57,9 +55,10 @@ img {
 
 .calltoaction {
     background-color:white;
-    padding:10px;
-    height:20%;
     
+    padding-top:30px;
+    padding-bottom:30px;
+    height:20%;
 }
 
 .wraparound {
@@ -70,10 +69,16 @@ img {
     display:flex;
     margin-left:20%;
     margin-right:20%;
+    padding: 30px;
+    width:60%;
 }
 
 .wraparound div {
-    flex: 1;
+    flex-grow: 1;
+}
+
+.cta {
+    width:75%;
 }
 
 .ctabutton{
@@ -87,6 +92,7 @@ img {
     margin: auto;
     align-items: center;
     justify-content: center;
+    width:15%;
 }
 
 .ctabutton:hover {
@@ -119,12 +125,15 @@ img {
 
  .header {
      display:flex;
-     margin-top:50px;
-     margin-bottom:50px;
+     margin-top:100px;
+     margin-bottom:100px;
+     margin-right:20%;
+     margin-left:20%;
      color:#f9faf8;
  }
+
  .header div{
-     flex:1; 
+     flex-grow:1;
  }
 
  .header button {
@@ -143,10 +152,7 @@ img {
  }
 
  .item1{
-     margin-left:10%;
- }
- .item2{
-     margin-right:10%;
+     width:75%;
  }
 
  .item1 p {
@@ -154,8 +160,8 @@ img {
  }
 
  .item2 img{
-     width:300px;
-     height:300px;
+     min-height:75%;
+     min-width:75%;
  }
 
  .name {
@@ -168,9 +174,10 @@ img {
 
   .testimonial {
       background-color: #E5E7EB;
-      padding-top:60px;
-      padding-right:100px;
-      padding-left:100px;
+      padding-top:40px;
+      padding-right:150px;
+      padding-left:150px;
+      padding-bottom:40px;
   }
 
   .box2
