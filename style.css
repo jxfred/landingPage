@@ -28,7 +28,6 @@
     margin-left:10px;
     margin-right:10px;
     vertical-align: top;
-    
     text-align: center;
     width: 25%;
     align-content:center;
@@ -37,7 +36,6 @@
 img {
     width: 130px;
     height: 130px;
-    
 }
 
 .random img {
@@ -55,7 +53,6 @@ img {
 
 .calltoaction {
     background-color:white;
-    
     padding-top:30px;
     padding-bottom:30px;
     height:20%;
